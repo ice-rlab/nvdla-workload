@@ -4,5 +4,6 @@
   "workdir" : "../nvdla-base",
   "overlay" : "overlay",
   "run" : "./run-nvdla-large-regression.sh",
-  "mem" : "4GiB"
+  "mem" : "4GiB",
+  "rootfs-size": "1GB"
 }
