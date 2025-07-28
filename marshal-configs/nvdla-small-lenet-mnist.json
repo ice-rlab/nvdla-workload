@@ -1,0 +1,12 @@
+{
+  "name" : "nvdla-small-lenet-mnist",
+  "base" : "nvdla-base.json",
+  "workdir" : "../nvdla-base",
+  "run" : "./run-nvdla.sh lenet_mnist.nvdla seven.pgm",
+  "outputs" : ["/root/seven.pgm.dimg"],
+  "files" : [
+    ["../models/lenet_mnist/lenet_mnist.nvdla", "/root/"],
+    ["../models/lenet_mnist/seven.pgm", "/root/"]
+  ],
+  "mem" : "4GiB"
+}
