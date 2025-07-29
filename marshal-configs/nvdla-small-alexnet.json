@@ -1,0 +1,12 @@
+{
+  "name" : "nvdla-small-alexnet",
+  "base" : "nvdla-base.json",
+  "workdir" : "../nvdla-base",
+  "run" : "./run-nvdla.sh alexnet_small.nvdla cat.jpg",
+  "outputs" : ["/root/cat.jpg.dimg"],
+  "files" : [
+    ["../models/alexnet/alexnet_small.nvdla", "/root/"],
+    ["../models/alexnet/cat.jpg", "/root/"]
+  ],
+  "mem" : "4GiB"
+}

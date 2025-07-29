@@ -1,0 +1,13 @@
+{
+  "name" : "nvdla-small-googlenet",
+  "base" : "nvdla-base.json",
+  "workdir" : "../nvdla-base",
+  "run" : "./run-nvdla.sh googlenet_small.nvdla dog.jpg boat.jpg",
+  "outputs" : ["/root/dog.jpg.dimg", "/root/boat.jpg.dimg"],
+  "files" : [
+    ["../models/googlenet/googlenet_small.nvdla", "/root/"],
+    ["../models/googlenet/dog.jpg", "/root/"],
+    ["../models/googlenet/boat.jpg", "/root/"]
+  ],
+  "mem" : "4GiB"
+}
