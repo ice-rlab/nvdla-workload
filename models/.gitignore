@@ -1,0 +1,4 @@
+**/*.prototxt
+**/*.caffemodel
+**/*.nvdla
+*.protobuf
