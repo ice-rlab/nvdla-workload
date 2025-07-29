@@ -13,3 +13,5 @@ $COMPILER_PATH/nvdla_compiler \
     --informat nchw \
     --cprecision fp16 \
     -o $OUTPUT_DIR
+
+mv fast-math.nvdla $OUTPUT_DIR/googlenet_small.nvdla

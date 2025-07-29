@@ -14,3 +14,5 @@ $COMPILER_PATH/nvdla_compiler \
     --cprecision int8 \
     --calibtable $NVDLA_WORKLOAD_DIR/models/lenet_mnist/source/lenet_mnist.json \
     -o $OUTPUT_DIR
+
+mv fast-math.nvdla $OUTPUT_DIR/lenet_mnist_small.nvdla
