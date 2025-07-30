@@ -1,10 +1,10 @@
 #!/bin/bash
 
 SCRIPTS=(
-    "~/riscv-performance-characterization/sims/firesim-workloads/nvdla-workload/models/run_alexnet_nvdla_compile.sh"
-    "~/riscv-performance-characterization/sims/firesim-workloads/nvdla-workload/models/run_googlenet_nvdla_compile.sh"
-    "~/riscv-performance-characterization/sims/firesim-workloads/nvdla-workload/models/run_lenet_nvdla_compile.sh"
-    "~/riscv-performance-characterization/sims/firesim-workloads/nvdla-workload/models/run_resnet50_nvdla_compile.sh"
+    "run_alexnet_nvdla_compile.sh"
+    "run_googlenet_nvdla_compile.sh"
+    "run_lenet_nvdla_compile.sh"
+    "run_resnet50_nvdla_compile.sh"
 )
 
 # loop running through the scripts
