@@ -1,0 +1,6 @@
+{
+  "name" : "nvdla-darknet",
+  "base" : "nvdla-base.json",
+  "workdir" : "../models/darknet",
+  "overlay" : "overlay"
+}
