@@ -1,0 +1,14 @@
+{
+  "name": "nvdla-perf-resnet50",
+  "base": "nvdla-base.json",
+  "workdir": "../nvdla-base",
+  "run": "./run-perf-harness.sh resnet50_small.nvdla dog.jpg",
+  "outputs": ["/root/dog.jpg.dimg", "/root/perf_results.txt"],
+  "files": [
+    ["../models/imagenet/resnet50_small.nvdla", "/root/"],
+    ["../models/imagenet/dog.jpg", "/root/"],
+    ["./performance-harness/nvdla_perf_harness", "/root/"],
+    ["./run-perf-harness.sh", "/root/"]
+  ],
+  "mem": "4GiB"
+}
